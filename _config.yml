@@ -7,7 +7,7 @@ url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://
 github_username:  iban1223
 
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
