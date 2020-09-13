@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Annie is a cool nerd!"
+title:  
 date:   2104-09-10 07:40:59 -0700
 categories:
 ---
