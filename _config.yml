@@ -19,6 +19,18 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+
+collections:
+        category:
+                output: true
+defaults:
+        -
+                scope:
+                        path: ""
+                        type: category
+                values:
+                        layouts: "category"
+
 exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
