@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+    <h1 class="home-header">Recent Projects</h1>
+    <ul>
+        <div class="wrapper">
+        {%- for post in site.posts limit: 6 -%}
+            <li class=post> 
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}  
+                <a href="{{ post.url | relative_url }}">
+                    <div class=post-info>
+                        <h2 class=post-meta id=post-type>{{ post.type | escape}} &#8203</h2>
+                        <h2 class=post-meta id=post-title> &#8203 {{ post.title }}</h2>
+                        <h4 class=post-meta id=post-date>{{ post.date | date: date_format }}</h4>
+                        <img src="{{ post.thumbnail }}" alt="Preview Unavailable." class="post-meta" id=post-img></img>
+                    </div>
+                </a>
+            </li>
+        {%- endfor -%}
+        </div>
+    </ul>
+</div>

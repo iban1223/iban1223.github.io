@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Retold"
+date:   2019-04-21
+categories: Theatre
+type: Lighting
+thumbnail: 
+org: Oberlin Musical Theatre Association
+show-type: Musical
+role: Lighting Design and Board Operator
+start: 2019-04-14
+rank: 
+---

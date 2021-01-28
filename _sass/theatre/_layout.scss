@@ -1,0 +1,117 @@
+//Header
+.site-header {
+    background: linear-gradient(to bottom right, $accent-color, rgba($accent-color, .6));
+    //width: $banner-width;
+    border-bottom: 2px solid black;
+    min-height: 2vh * 1.865;
+}
+.nav {
+    display: grid;
+    grid-gap: 10px 20vw;
+}
+.nav-link {
+    grid-row: 1;
+}
+#moses {
+    grid-row: 2;
+}
+
+
+//Default
+.main-body {
+    display: grid;
+    justify-content: center;
+}
+.bod-main {
+    min-height: 100%;
+    width:100%;
+    min-width:1100px;
+    min-height:100%;
+}
+#header {
+    width: 100%;
+    grid-row: 1;
+}
+#main-content {
+    min-height: calc(100vh - (2vh * 1.865));
+}
+#footer {
+    width: 100%;
+}
+
+//Footer
+.site-footer {
+    //width: $banner-width;
+    border-top: 1px solid black;
+    min-height: 2vh * 1.865;
+    background: linear-gradient(to top left, $accent-color, rgba($accent-color, .6));
+    display: grid;
+    gap: .001px 1px;
+    grid-template-columns: auto auto 10vw 10vw 10vw;
+}
+.footer-content {
+    grid-row: 1;
+}
+#footer-email{
+    position:static;
+    grid-column: 2;
+    margin: 0;
+    box-sizing: border-box;
+}
+#footer-copy-right {
+    font-size: $font-size * .75;
+    grid-row: 2;
+}
+
+//Home
+.home-header {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.post {
+    list-style-type: none;
+}
+.post-info {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+#post-type {
+    color: rgba(black, .5);
+    display: inline;
+    float: inline-start;
+    border-right: 2px solid black;
+}
+#post-img{
+    height: 25vh;
+    width: auto;
+    border-bottom: 20px, solid black;
+}
+
+//CV
+.table-row, .table-column, .cv-label{
+    border: 1px solid black;
+}
+.cv {
+    display: grid;
+    justify-content: center;
+}
+
+//Shows
+.shows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.show{
+    display: grid;
+    justify-content: center;
+}
+.show-img {
+    width: 30vw;
+}

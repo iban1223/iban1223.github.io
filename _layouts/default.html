@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+</head>
+<body class=main-body>
+  <div class=bod-main>
+    <div class="grid-item" id=header>{%- include header.html -%}</div>
+
+    <main class="page-content">
+      <div class="grid-item" id=main-content>
+        {{ content }}
+      </div>
+    </main>
+
+    <div class="grid-item" id=footer>{%- include footer.html -%}</div>
+  </div>
+</body>
+</html>

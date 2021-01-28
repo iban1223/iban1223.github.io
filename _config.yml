@@ -1,13 +1,36 @@
-title: Daniel Moses - Portfolios
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Daniel Moses Lighting Design
 email: danielscottmoses@gmail.com
+author: Daniel Moses
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the dual portfolio of Daniel Moses. This website serves as both a lighting designer portfolio and a computer science portfolio for Daniel Moses.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  Daniel Moses has been doing lighting design since his freshman year of high school. Since 2018 he
+  has worked on over 20 shows and has worked in Oberlin College's theatre as an assistant technician in
+  the electrics shop.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.danielscottmoses@gmail.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  iban1223
 
 # Build settings
-theme: minima 
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -19,24 +42,12 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-
-collections:
-        category:
-                output: true
-defaults:
-        -
-                scope:
-                        path: ""
-                        type: category
-                values:
-                        layouts: "category"
-
-exclude:
+# exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-    - Gemfile
-    - Gemfile.lock
+#   - Gemfile
+#   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="cv">
+    <h1 class=cv-title>Theatrical Experience</h1>
+    <table class="cv-table">
+        <tr>
+            <th class=cv-label><h3>Organization</h3></th>
+            <th class=cv-label><h3>Show</h3></th>
+            <th class=cv-label><h3>Type of Show</h3></th>
+            <th class=cv-label><h3>Role</h3></th>
+            <th class=cv-label><h3>Tech Start</h3></th>
+            <th class=cv-label><h3>Show End</h3></th>
+        </tr>
+        {%- for post in site.posts -%}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <tr class="table-row">
+                    <th class=table-column id=show-org>{{ post.org }}</th>
+                    <th class=table-column id=show-title><a href="{{ post.url }}"">{{ post.title }}</a></th>
+                    <th class=table-column id=show-type>{{ post.show-type }}</th>
+                    <th class=table-column id=show-role>{{ post.role }}</th>
+                    <th class=table-column id=show-start>{{  post.start | date: date_format  }}</th>
+                    <th class=table-column id=show-end>{{ post.date | date: date_format }}</th>
+                </tr>
+        {%- endfor -%}
+    </table>
+</div>

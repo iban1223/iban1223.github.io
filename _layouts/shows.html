@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="shows">
+    {%- for post in site.posts -%}
+        {% if post.rank == "feature" %}
+            <a href={{ post.url }}>
+            <div class="show">
+                <h2 class="show-title">{{ post.title }}</h2>
+                <img src="{{ post.thumbnail }}" alt="Preview Unavailable." class=show-img></img>
+                <p class="post-blurb">{{ post.excerpt }}</p>
+            </div>
+            </a>
+        {% endif %}
+    {%- endfor -%}
+</div>

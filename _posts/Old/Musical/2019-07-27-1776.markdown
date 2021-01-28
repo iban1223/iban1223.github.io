@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "1776"
+date:   2019-07-27
+categories: Theatre
+type: Lighting
+thumbnail: 
+org: St. Geniesius
+show-type: Musical
+role: Lighting Design and Master Electrician
+start: 2019-07-20
+rank: 
+---

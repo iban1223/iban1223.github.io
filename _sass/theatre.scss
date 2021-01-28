@@ -1,0 +1,10 @@
+$font:              'Nunito', sans-serif !default;
+$font-size:          16px !default;
+$link-color:        rgb(105, 80, 145) !default;
+$accent-color:      #714bb3 !default;
+$banner-width:      100% !default;
+
+@import
+  "theatre/base.scss",
+  "theatre/layout.scss"
+;
