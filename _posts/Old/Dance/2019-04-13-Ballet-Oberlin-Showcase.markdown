@@ -11,3 +11,4 @@ role: Lighting Design and Light and Sound Boards Operator
 start: 2019-04-07
 rank: 
 ---
+This showcase was the cumulative choreographery and work of the various Ballet Oberlin classes over the course of the spring. 

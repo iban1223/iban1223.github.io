@@ -33,6 +33,7 @@ github_username:  iban1223
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-image-size
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -11,3 +11,5 @@ role: Lighting Design and Board Operator
 start: 2018-12-02
 rank: 
 ---
+
+*Small Talk* is a play written by Eliana Zuckerman.

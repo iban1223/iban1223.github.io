@@ -7,8 +7,8 @@ layout: default
             <a href={{ post.url }}>
             <div class="show">
                 <h2 class="show-title">{{ post.title }}</h2>
-                <img src="{{ post.thumbnail }}" alt="Preview Unavailable." class=show-img></img>
-                <p class="post-blurb">{{ post.excerpt }}</p>
+                <img id=show-img src="{{ post.thumbnail }}" alt="Preview Unavailable."></img>
+                <!-- <p class="post-blurb">{{ post.excerpt }}</p> -->
             </div>
             </a>
         {% endif %}

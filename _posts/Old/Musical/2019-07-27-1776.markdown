@@ -11,3 +11,5 @@ role: Lighting Design and Master Electrician
 start: 2019-07-20
 rank: 
 ---
+
+For St. Geniesius's 2019 summer show *1776* was performed. Daniel Moses ran the lighting for the summer which entailed teaching high school and middle schoolers both electrics and lighting design as well as being the Master Electrician for the summer.

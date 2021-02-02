@@ -1,7 +1,6 @@
 //Header
 .site-header {
     background: linear-gradient(to bottom right, $accent-color, rgba($accent-color, .6));
-    //width: $banner-width;
     border-bottom: 2px solid black;
     min-height: 2vh * 1.865;
 }
@@ -22,14 +21,7 @@
     display: grid;
     justify-content: center;
 }
-.bod-main {
-    min-height: 100%;
-    width:100%;
-    min-width:1100px;
-    min-height:100%;
-}
 #header {
-    width: 100%;
     grid-row: 1;
 }
 #main-content {
@@ -41,7 +33,6 @@
 
 //Footer
 .site-footer {
-    //width: $banner-width;
     border-top: 1px solid black;
     min-height: 2vh * 1.865;
     background: linear-gradient(to top left, $accent-color, rgba($accent-color, .6));
@@ -76,6 +67,8 @@
 }
 .post {
     list-style-type: none;
+    flex-grow: 5;
+    flex-shrink: 5;
 }
 .post-info {
     margin-left: 10vw;
@@ -104,14 +97,24 @@
 
 //Shows
 .shows{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
+    grid-template-columns: 40vw 40vw;
 }
 .show{
     display: grid;
     justify-content: center;
 }
-.show-img {
+#show-img {
     width: 30vw;
+    height: auto;
+}
+
+//Post
+.in-post-role{
+    color:rgba(black, .5);
+}
+.in-post-img{
+    width: 40vw;
+    height: auto;
 }

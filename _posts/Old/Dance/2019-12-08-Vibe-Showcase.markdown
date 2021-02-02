@@ -11,3 +11,5 @@ role: Lighting Design
 start: 2019-12-08
 rank: 
 ---
+
+Oberlin Vibe is a student tap dance group. This was their spring showcase of all the work they had done over the semester.

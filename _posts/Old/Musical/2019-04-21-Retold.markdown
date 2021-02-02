@@ -4,10 +4,16 @@ title:  "Retold"
 date:   2019-04-21
 categories: Theatre
 type: Lighting
-thumbnail: 
+thumbnail: assets\images\Retold\Retold_3.jpg
 org: Oberlin Musical Theatre Association
 show-type: Musical
 role: Lighting Design and Board Operator
 start: 2019-04-14
 rank: 
 ---
+
+*Retold* is a musical written by Alex Ngo and produced by the Oberlin Musical Theatre Association. It is a retelling of the classic fairy tale story except with several twists and turns thrown in.
+
+<img src='\assets\images\Retold\Retold_3.jpg' width='350'>
+<img src='\assets\images\Retold\Retold_2.jpg' width='350'>
+<img src='\assets\images\Retold\Retold_1.jpg' width='350'>

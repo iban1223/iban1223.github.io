@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-    <h1 class="home-header">Recent Projects</h1>
+    <h1 class="home-header">Recent Shows</h1>
     <ul>
         <div class="wrapper">
         {%- for post in site.posts limit: 6 -%}
@@ -14,7 +14,7 @@ layout: default
                         <h2 class=post-meta id=post-type>{{ post.type | escape}} &#8203</h2>
                         <h2 class=post-meta id=post-title> &#8203 {{ post.title }}</h2>
                         <h4 class=post-meta id=post-date>{{ post.date | date: date_format }}</h4>
-                        <img src="{{ post.thumbnail }}" alt="Preview Unavailable." class="post-meta" id=post-img></img>
+                        <img src="{{ post.thumbnail }}" alt=" " class="post-meta" id=post-img></img>
                     </div>
                 </a>
             </li>
