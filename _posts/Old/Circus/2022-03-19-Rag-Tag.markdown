@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Rag Tag"
+date:   2022-03-19
+categories: Theatre
+type: Lighting
+thumbnail: 
+org: Cirque Us
+show-type: Circus
+role: Lighting Design and Board Operator
+start: 2022-03-18
+rank: 
+---
+*Rag Tag* is a show performed by professional circus group Cirque Us. When they visited Oberlin college Daniel provided lighting support for their show and ran the lights during their performances.

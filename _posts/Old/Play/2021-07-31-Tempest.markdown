@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Tempest"
+date:   2021-07-31
+categories: Theatre
+type: Lighting
+thumbnail: 
+org: Oberlin Theater Department
+show-type: Play
+role: Lighting Design
+start: 2021-08-23
+rank: 
+---
+
+As a part of Oberlin's summer Shakespeare cours Daniel did lighting for *Tempest* directed by Emily Newmark.

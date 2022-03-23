@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Olympus"
+date:   2022-02-27
+categories: Theatre
+type: Lighting
+thumbnail: 
+org: Oberlin Theater Department
+show-type: Musical
+role: Associate Lighting Design
+start: 2022-02-17
+rank: 
+---
+
+*Olympus* is a brand new musical written by Cyril Amanfo, Mark Lagande, and Max Adae. Premeried at Oberlin college as the Winter Musical it is about the gods of Olympus as they go through a change in power and a change of fate.
